@@ -57,17 +57,18 @@ python main.py
 '''
 
 - 目录结构:
-. rtsp
-|   test
+'''
+. rtsp/
+|   test/
     |   config
         |   config.json
-    |   log
+    |   log/
         |   rtsp.log
-    |  static 
+    |  static/ 
         |   style.css
-    |   templates
+    |   templates/
         |   index.html
-    |   src
+    |   src/
         |   main.py
         |   logger.py
         |   shared.py
@@ -75,6 +76,6 @@ python main.py
         |   frames_reader.py
         |   frames_process.py
         |   show.py
-
+'''
 ## 4. 项目说明链接
 https://blog.csdn.net/qq_57674776/article/details/148236729?spm=1011.2124.3001.6209
