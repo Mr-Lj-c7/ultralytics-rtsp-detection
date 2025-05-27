@@ -30,9 +30,10 @@ python main.py
 '''
 
 - 目录结构:
+'''
 . rtsp/
- config/
-  config.json
+| config/
+    |   config.json
 |   log/
     |   rtsp_20250523_165622.log
 |   modle/
@@ -47,6 +48,7 @@ python main.py
     |   frames_reader.py
     |   frames_process.py
     |   web_show.py
+'''
 
 
 ### 3.2. 测试模块
