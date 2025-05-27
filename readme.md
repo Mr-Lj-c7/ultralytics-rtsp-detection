@@ -30,16 +30,16 @@ python main.py
 '''
 
 - 目录结构:
-. rtsp
-|   config
-    |   config.json
-|   log
+. rtsp/
+ config/
+  config.json
+|   log/
     |   rtsp_20250523_165622.log
-|   modle
+|   modle/
     |   yolov8n.pt
-|   templates
+|   templates/
     |   multi_cam.html
-|   src
+|   src/
     |   main.py
     |   logger.py
     |   shared.py
