@@ -24,12 +24,12 @@ python main.py
 ```
 
 ## 3. 项目结构
-3.1.  主模块 
+### 3.1.  主模块 
 '''
 多摄像头rtsp视频流接入yolo模型进行检测，同步web端可视化
 '''
 
-### 目录结构
+目录结构
 . rtsp
 |   config
     |   config.json
@@ -49,12 +49,12 @@ python main.py
     |   web_show.py
 
 
-3.2. 测试模块
+### 3.2. 测试模块
 '''
 测试单摄像头画面检测rtsp视频流，main.py
 '''
 
-###  目录结构
+目录结构
 . rtsp
 |   test
     |   config
