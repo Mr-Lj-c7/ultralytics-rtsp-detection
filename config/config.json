@@ -1,0 +1,24 @@
+{
+  "cameras": [
+    {
+      "id": "cam1",
+      "rtsp_url": "",
+      "model_path": "../model/yolov8n.pt",
+      "target_classes": [0, 56, 60]
+    },
+    {
+      "id": "cam2",
+      "rtsp_url": "rtsp://admin:123456@192.168.2.211:554/stream",
+      "model_path": "../model/yolov8n.pt",
+      "target_classes": [0, 56, 60]
+    }
+  ],
+  "global": {
+    "retry_interval": 5,
+    "confidence_threshold": 0.4,
+    "rectangle_thickness": 2,
+    "text_thickness": 1,
+    "queue_maxsize": 15,
+    "batch_queue_maxsize": 100
+  }
+}

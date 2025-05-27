@@ -1,0 +1,11 @@
+{
+  "rtsp_url": "rtsp://admin:123456@192.168.2.213:554/stream",
+  "model_path": "../../model/yolov8n.pt",
+  "retry_interval": 5,
+  "confidence_threshold": 0.3,
+  "rectangle_thickness": 2,
+  "text_thickness": 1,
+  "queue_maxsize": 15,
+  "display_window_name": "YOLO Detection",
+  "target_classes": [0,56,60]  
+}

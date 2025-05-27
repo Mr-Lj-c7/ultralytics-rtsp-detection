@@ -1,0 +1,25 @@
+<!-- templates/multi_cam.html -->
+<div class="video-grid">
+  {% for camera in cameras %}
+  <div class="video-item">
+    <h3>摄像头 {{ camera.id }}
+        <span class="status-{{ 'online' if camera.result_queue.qsize() >0 else 'offline' }}"></span>
+    </h3>
+    <img src="{{ url_for('video_feed', camera_id=camera.id) }}">
+  </div>
+  {% endfor %}
+</div>
+
+<style>
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(640px, 1fr));
+  gap: 20px;
+}
+.video-item {
+  background: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+</style>

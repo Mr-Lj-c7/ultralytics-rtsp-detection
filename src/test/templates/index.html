@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YOLO实时检测</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>实时目标检测监控</h1>
+        <div class="video-wrapper">
+            <img src="{{ url_for('video_feed') }}" 
+                 class="video-stream">
+        </div>
+    </div>
+</body>
+</html>
